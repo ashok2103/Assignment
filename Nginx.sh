@@ -1,6 +1,6 @@
 #shell script
 #!/bin/bash
-#To upate the isntance
+#To upate the instance
 sudo apt-get update
 #To install nginx
 sudo apt-get install -y nginx
