@@ -7,10 +7,10 @@ NIGNX installtion on 2 unbuntu 18.4 instance
 
 Create 2 ubuntu instance with t2.micro	
 In Configuration instace number of isntance is 2 and the network part is default one.
-In advanced Details -> user data as text using the below commnad also we can use the same in file by giveing the script name.
+In advanced Details -> user data as text using the below commnad also we can use the same in file by giving the script name Nginx.sh.
 #shell script
 #!/bin/bash
-#To upate the isntance
+#To upate the instance
 sudo apt-get update
 #To install nginx
 sudo apt-get install -y nginx
@@ -18,6 +18,8 @@ sudo apt-get install -y nginx
 sudo sh -c 'echo "Hello-World" >> /var/www/html/index.html'
 #starting the nginx service
 sudo service nginx start
+
+
 
 Tag crearted with Webserv1 and Webserv2
 
